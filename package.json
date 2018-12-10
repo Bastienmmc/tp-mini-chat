@@ -1,0 +1,14 @@
+{
+  "name": "tp_superchat",
+  "version": "1.0.0",
+  "description": "Un chat réalisé avec node JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bastienmmc",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  }
+}
