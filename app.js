@@ -1,7 +1,7 @@
 var app = require('express')(),
     server = require('http').createServer(app),
     io = require('socket.io').listen(server),
-    ent = require('ent'), // Permet de bloquer les caractères HTML (sécurité équivalente à htmlentities en PHP)
+    ent = require('ent'); // Permet de bloquer les caractères HTML (sécurité équivalente à htmlentities en PHP)
 
     // Chargement de la page index.html
     app.get('/', function (req, res) {
